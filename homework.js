@@ -36,7 +36,7 @@ let strSubstring2 = string.slice(4, 9); //result ' test'
 let newString = string.slice(0, string.length - 6); // resilt - 'Some test string to check '
 
 // Task 8
-// Get contact string
+// Get concat string
 let a = 20;
 let b = 16;
 let c = `${a}` + `${b}`; // result - 2016
