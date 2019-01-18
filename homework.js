@@ -7,8 +7,8 @@
 
 let string = 'Some test string to check skills';
 
-let firstChar = string.slice(0, 1);  // result -  S
-let lastChar  = string.slice(-1);    // result -  s
+let firstChar = string[0];                    // result -  S
+let lastChar  = string[string.length - 1];    // result -  s
 
 // Task 2
 // Make first and last char in upper case
@@ -33,7 +33,7 @@ let strSubstring2 = string.slice(4, 9); //result ' test'
 
 // Task 7
 // Get new string from old one without last 6 letters
-let newString = string.slice(0, string.length - 6); // resilt - 'Some test string to check '
+let newString = string.slice(0, -6); // resilt - 'Some test string to check '
 
 // Task 8
 // Get concat string
